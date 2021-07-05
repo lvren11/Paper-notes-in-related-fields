@@ -1,7 +1,7 @@
 # Attention-Weighted Federated Deep Reinforcement Learning for Device-to-Device Assisted Heterogeneous Collaborative Edge Caching
 ## 中：用于设备到设备辅助异构协作边缘缓存的注意力加权联邦深度强化学习
 #### 作者：Xiaofei Wang , Senior Member, IEEE, Ruibin Li, Graduate Student Member, IEEE, Chenyang Wang, Graduate Student Member, IEEE, Xiuhua Li , Member, IEEE, Tarik Taleb , Senior Member, IEEE, and Victor C. M. Leung , Life Fellow, IEEE
-#### 时间：27 10月 2018
+#### 时间：2021 1
 
 ## 系统模型
 ###  网络架构
