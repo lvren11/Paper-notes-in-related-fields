@@ -155,9 +155,9 @@ $$
 差距过大会使得较小的一项不起作用
 
 System reward ($\lambda_1,\lambda_2$ 权重因子)
+
 $$C(\mathbf{s}_t^u,\mathbf{a}_t^u) = \lambda_1C^1_{u,t}+\lambda_2C^2_{u,t},\forall u \in \mathcal{U},t \in \mathcal{T}\\
-where\ \lambda_1+\lambda_2 = 1,0\leq \lambda_1,\lambda_2 \leq 1
-$$
+where\ \lambda_1+\lambda_2 = 1,0\leq \lambda_1,\lambda_2 \leq 1$$
 
 **D. Value Function**
 价值函数（目标是找到一个最优策略来优化预期的长期奖励）
