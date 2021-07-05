@@ -112,9 +112,9 @@ UE 中节点选择和缓存替换的联合问题表述为马尔科夫决策过�
 
 **A. UE State**
 
-$\mathbf{s}_t^u = [\mathbf{\Omega}_t,\vec{p}_u,r_{u,t}^D,\mathbf{X}_u,\mathbf{I}_f] $
+$ \mathbf{s}_t^u = [\mathbf{\Omega}_t,\vec{p}_u,r_{u,t}^D,\mathbf{X}_u,\mathbf{I}_f] $
 
-$\mathbf{I}_f $是节点缓存请求信息$f$的指标.
+$ \mathbf{I}_f $是节点缓存请求信息$f$的指标.
 
 **B.UE Action**
 
@@ -129,11 +129,11 @@ $\beta^f_{u,v,t}$：从哪个节点获取信息，$\mathbf{X}^f_{u,t}$:是否把
 奖励分为**D2D网络共享数据量(最大化)** 和 **信息共享延迟(最小化)** 两个方面.
 
 D2D共享激励函数 D2D Sharing Gain:
-$$C_{u,t}^1 = \sum_{v \in \mathcal{U}}s_{ f_{u,t} }R_{u,v}x_{v,f}(1-x_{u,f}),\forall u \in \mathcal{U},\forall t \in \mathcal{T}
+$$ C_{u,t}^1 = \sum_{v \in \mathcal{U}}s_{ f_{u,t} }R_{u,v}x_{v,f}(1-x_{u,f}),\forall u \in \mathcal{U},\forall t \in \mathcal{T}
 $$
 
 信息获取激励函数 Content Fetch Gain:
-$$\begin{aligned}
+$$ \begin{aligned}
 C^2_{u,t}=
 \left\{
 \begin{array}{l}
@@ -156,8 +156,8 @@ $$
 
 System reward ($\lambda_1,\lambda_2$ 权重因子)
 
-$$C(\mathbf{s}_t^u,\mathbf{a}_t^u) = \lambda_1C^1_{u,t}+\lambda_2C^2_{u,t},\forall u \in \mathcal{U},t \in \mathcal{T}\\
-where\ \lambda_1+\lambda_2 = 1,0\leq \lambda_1,\lambda_2 \leq 1$$
+$$ C(\mathbf{s}_t^u,\mathbf{a}_t^u) = \lambda_1C^1_{u,t}+\lambda_2C^2_{u,t},\forall u \in \mathcal{U},t \in \mathcal{T}\\
+where\ \lambda_1+\lambda_2 = 1,0\leq \lambda_1,\lambda_2 \leq 1 $$
 
 **D. Value Function**
 价值函数（目标是找到一个最优策略来优化预期的长期奖励）
