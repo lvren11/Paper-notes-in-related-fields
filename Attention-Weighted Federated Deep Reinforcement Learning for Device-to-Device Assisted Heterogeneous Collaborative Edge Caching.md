@@ -63,7 +63,7 @@ $\forall u \in \mathcal{U},\sum_{f\in \mathcal{F}}p_u^f=1$
 
 ![d2d](./assets/Attention/d2d.jpg)
 
-通信图的定义：$\mathcal{G}_C:=\{\mathcal{U},\mathcal{E}_C\},\mathcal{E}_C:=\{(u,v):e^c_{uv}=1\}$
+通信图的定义：$\mathcal{G}_C:=\{\mathcal{U},\mathcal{E}_C\},\mathcal{E}_C:=\{(u,v):e^c_{uv}=1\} $
 
 注：$e^c_{uv}=1$ 表示用户$u,v$既相邻，又是社会关系强的。
 
