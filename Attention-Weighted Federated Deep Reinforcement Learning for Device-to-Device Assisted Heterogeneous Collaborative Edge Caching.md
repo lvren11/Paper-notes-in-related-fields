@@ -112,9 +112,9 @@ UE 中节点选择和缓存替换的联合问题表述为马尔科夫决策过�
 
 **A. UE State**
 
-$\mathbf{s}_t^u = [\mathbf{\Omega}_t,\vec{p}_u,r_{u,t}^D,\mathbf{X}_u,\mathbf{I}_f]$
+$\mathbf{s}_t^u = [\mathbf{\Omega}_t,\vec{p}_u,r_{u,t}^D,\mathbf{X}_u,\mathbf{I}_f] $
 
-$\mathbf{I}_f$是节点缓存请求信息$f$的指标.
+$\mathbf{I}_f $是节点缓存请求信息$f$的指标.
 
 **B.UE Action**
 
