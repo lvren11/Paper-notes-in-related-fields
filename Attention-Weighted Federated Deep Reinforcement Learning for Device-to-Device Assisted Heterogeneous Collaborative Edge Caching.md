@@ -75,7 +75,7 @@ $$
 
 $\forall u \in \mathcal{U},\vec{p_u}=(p_u^f)^{1×\mathfrak{F}}$
 
-$r^{tan}_{uu}=0$对于$(u,u)$
+$r^{tan}_{uu}=0 $对于$ (u,u) $
 
 D2D信息共享的概率 $R_{uv}=r_{uv}^{tan}e^c_{uv}$，$\mathbf{R_u}=(R_{uv})^{1×U}$,其中$R$是归一化后的，$R_{uv}=\frac{R_{uv}}{\sum_vR_{uv}}$
 
